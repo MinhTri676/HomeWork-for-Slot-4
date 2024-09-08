@@ -1,0 +1,77 @@
+body {
+  border-style: solid;
+  border-color: darkcyan;
+}
+.logo {
+  margin-left: 10px;
+}
+
+nav {
+  margin-left: 30px;
+  font-size: large;
+}
+.about-noi-dung {
+  width: 45%;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.about-noi-dung h1 {
+  text-align: right;
+  margin-right: 20px;
+}
+.about-noi-dung p {
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.about img {
+  width: 650px;
+  height: fit-content;
+  margin-top: 30px;
+}
+
+.about {
+  display: flex;
+  background-color: rgb(236, 236, 235);
+  margin-top: 20px;
+}
+
+.product {
+  width: 23%;
+  text-align: center;
+}
+
+.best-seller h1 {
+  margin-left: 130px;
+  color: #2dc5c0;
+}
+
+.product img {
+  width: 150px;
+}
+.sale-of {
+  width: 45%;
+}
+
+.sale-of h1 {
+  margin-bottom: 10px;
+}
+table {
+  margin-: 100px;
+}
+
+.products-list {
+  display: flex;
+}
+
+th,
+td {
+  padding: 12px;
+}
+
+th {
+}
