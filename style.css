@@ -1,14 +1,22 @@
-body {
-  border-style: solid;
-  border-color: darkcyan;
+header {
+  display: flex;
+  background-color: #ddd;
 }
 .logo {
-  margin-left: 10px;
+  width: 45%;
 }
 
 nav {
-  margin-left: 30px;
+  width: 45%;
+  display: flex;
   font-size: large;
+  margin-top: 50px;
+}
+
+nav a {
+  font-size: 40px;
+  margin-left: 40px;
+  color: #2dc5c0;
 }
 .about-noi-dung {
   width: 45%;
@@ -20,18 +28,24 @@ nav {
   text-align: right;
   margin-right: 20px;
 }
+
+.about .line {
+  color: transparent;
+  background: #2dc5c0;
+  width: 120px;
+  margin-top: -20px;
+  height: 10px;
+  margin-left: 415px;
+  border-radius: 10px;
+}
+
 .about-noi-dung p {
   text-align: justify;
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 30px;
+  margin-top: 50px;
   font-size: 18px;
-}
-
-.about img {
-  width: 650px;
-  height: fit-content;
-  margin-top: 30px;
+  line-height: 50px;
 }
 
 .about {
@@ -40,38 +54,150 @@ nav {
   margin-top: 20px;
 }
 
-.product {
-  width: 23%;
-  text-align: center;
+.best-seller {
+  display: flex;
+  padding: 20px;
 }
 
-.best-seller h1 {
-  margin-left: 130px;
-  color: #2dc5c0;
-}
-
-.product img {
-  width: 150px;
-}
+.products-list,
 .sale-of {
   width: 45%;
 }
 
-.sale-of h1 {
-  margin-bottom: 10px;
-}
-table {
-  margin-: 100px;
+.best-seller h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2dc5c0;
 }
 
-.products-list {
+.products {
   display: flex;
+}
+
+.product-card {
+  width: 42%;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-card del {
+  color: rgb(150, 159, 167);
+}
+
+.product-card ins {
+  color: red;
+  margin-left: 15px;
+}
+
+.product-card button {
+  background-color: #f37b14;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  padding: 15px;
+  width: 100px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: solid;
 }
 
 th,
 td {
-  padding: 12px;
+  border: 1px solid #ddd;
+  padding: 16px;
+  text-align: center;
 }
 
 th {
+  color: #ffffff;
+  background-color: #2dc5c0;
+}
+
+.services h1 {
+  text-align: center;
+  color: #2dc5c0;
+}
+
+.services img,
+.services .form-tu-van {
+  width: 45%;
+}
+
+form {
+  display: flex;
+  background-color: #ddd;
+}
+
+.form-tu-van p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 50px;
+  line-height: 50px;
+}
+
+.form-tu-van {
+  margin-left: 30px;
+}
+
+.entry {
+  margin-top: 10px;
+}
+.entry label {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f37b14;
+}
+
+.entry input {
+  width: 400px;
+  height: 25px;
+}
+
+.entry input.name {
+  margin-left: 30px;
+}
+
+.entry input.phone {
+  margin-left: 60px;
+}
+
+.entry input.address {
+  margin-left: 45px;
+}
+
+button {
+  background-color: #f37b14;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 30px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.button .send {
+  margin-left: 180px;
+  margin-right: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #2dc5c0;
+  color: #ffffff;
 }

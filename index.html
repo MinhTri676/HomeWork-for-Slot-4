@@ -7,37 +7,32 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="logo">
-      <img src="img/Logosmart.png" />
-    </div>
+    <header>
+      <div class="logo">
+        <img src="img/Logosmart.png" />
+      </div>
 
-    <nav>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#products">Products</a></li>
-      <li><a href="#service">Services</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </nav>
+      <nav>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Products</a>
+        <a href="">Services</a>
+        <a href="">Contact</a>
+      </nav>
+    </header>
 
     <div class="about">
       <div class="about-noi-dung">
         <h1>What is smart home?</h1>
 
+        <div class="line">line</div>
+
         <p>
           Smart Home is a house that allows the owner to schedule operations and
-          control
-        </p>
-        <p>
           on/off smart home devices such as lighting systems, air conditioners,
-          televisions,
-        </p>
-        <p>
-          water heaters, and curtains, automatic watering... with just 1 touch
-          on a mobile
-        </p>
-        <p>
-          phone (smartphone) instead of having to use a normal control or
-          mechanical switch.
+          televisions, water heaters, and curtains, automatic watering... with
+          just 1 touch on a mobile phone (smartphone) instead of having to use a
+          normal control or mechanical switch.
         </p>
       </div>
 
@@ -47,89 +42,105 @@
     </div>
 
     <div class="best-seller">
-      <h1>BEST SELLER</h1>
       <div class="products-list">
-        <div class="product">
-          <img src="img/chieusang.png" />
-          <h3>Smart Lighting System</h3>
-          <p><del>400$</del> <ins>230$</ins></p>
-          <button>Buy Now</button>
+        <h1>BEST SELLER</h1>
+        <div class="products">
+          <div class="product-card">
+            <img src="img/chieusang.png" />
+            <h3>Smart Lighting System</h3>
+            <p><del>400$</del> <ins>230$</ins></p>
+            <button>Buy Now</button>
+          </div>
+
+          <div class="product-card">
+            <img src="img/anninhthongminh.jpg" />
+            <h3>Smart security</h3>
+            <p><del>450$</del> <ins>400$</ins></p>
+            <button>Buy Now</button>
+          </div>
         </div>
+      </div>
 
-        <div class="product">
-          <img src="img/anninhthongminh.jpg" />
-          <h3>Smart security</h3>
-          <p><del>450$</del> <ins>400$</ins></p>
-          <button>Buy Now</button>
-        </div>
+      <div class="sale-of">
+        <h1>SALE OF 20%</h1>
 
-        <div class="sale-of">
-          <h1>SALE OF 20%</h1>
+        <table border="1">
+          <tr>
+            <th>Product's name</th>
+            <th>Price</th>
+          </tr>
 
-          <table border="1">
-            <tr>
-              <th>Product's name</th>
-              <th>Price</th>
-            </tr>
+          <tr>
+            <td>Camera Wifi ICat Indoor</td>
+            <td>$30</td>
+          </tr>
 
-            <tr>
-              <td>Camera Wifi ICat Indoor</td>
-              <td>$30</td>
-            </tr>
+          <tr>
+            <td>Square Hunonic Glass Socket with Gold Trim</td>
+            <td>$20</td>
+          </tr>
 
-            <tr>
-              <td>Square Hunonic Glass Socket with Gold Trim</td>
-              <td>$20</td>
-            </tr>
+          <tr>
+            <td>Hunonic Ecosystem smart curtain motor | Control remotely</td>
+            <td>$100</td>
+          </tr>
 
-            <tr>
-              <td>Hunonic Ecosystem smart curtain motor | Control remotely</td>
-              <td>$100</td>
-            </tr>
+          <tr>
+            <td>Hunonic Smoke Sensor</td>
+            <td>$40</td>
+          </tr>
 
-            <tr>
-              <td>Hunonic Smoke Sensor</td>
-              <td>$40</td>
-            </tr>
+          <tr>
+            <td>Luxury Smart Water Heater Anti-Shockwave Switch</td>
+            <td>$50</td>
+          </tr>
 
-            <tr>
-              <td>Luxury Smart Water Heater Anti-Shockwave Switch</td>
-              <td>$50</td>
-            </tr>
-
-            <tr>
-              <td>HUNONIC DOOR Smart Rolling Door Switch (black)</td>
-              <td>$50</td>
-            </tr>
-          </table>
-        </div>
+          <tr>
+            <td>HUNONIC DOOR Smart Rolling Door Switch (black)</td>
+            <td>$50</td>
+          </tr>
+        </table>
       </div>
     </div>
 
-    <div id="services">
+    <div class="services">
       <h1>CONSULTATION AND INSTALLATION QUOTE</h1>
-      <img src="img/tuvan.jpg" />
 
-      <div class="form-tu-van">
-        <div class="input">
-          <label for="name">FullName</label>
-          <input type="name" name="" id="" />
+      <form>
+        <img src="img/tuvan.jpg" />
+        <div class="form-tu-van">
+          <p>
+            Please fill in the following information
+            <br />
+            Smarthappyhome will contact you to support you immediately
+          </p>
+
+          <div class="entry">
+            <label for="">FullName</label>
+            <input class="name" type="text" name="" id="" />
+          </div>
+
           <br />
 
-          <label for="phone">Phone</label>
-          <input type="phone" name="" id="" />
+          <div class="entry">
+            <label for="">Phone</label>
+            <input class="phone" type="text" name="" id="" />
+          </div>
+
           <br />
 
-          <label for="address">Address</label>
-          <input type="address" name="" id="" />
+          <div class="entry">
+            <label for="">Address</label>
+            <input class="address" type="text" name="" id="" />
+          </div>
           <br />
+
+          <div class="button">
+            <button class="send">Send</button>
+            <button class="cancel">Cancel</button>
+          </div>
         </div>
-      </div>
-
-      <div class="button">
-        <button>Send</button>
-        <button>Cancel</button>
-      </div>
+      </form>
     </div>
 
     <footer>
